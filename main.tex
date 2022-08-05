@@ -1,0 +1,273 @@
+%--------------------
+% Packages
+% -------------------
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{gentium}
+\usepackage{mathptmx} % Use Times Font
+\usepackage[explicit]{titlesec}
+
+\titleformat{\subsection}[runin]% runin puts it in the same paragraph
+       {\normalfont\bfseries}% formatting commands to apply to the whole heading
+       {\thesubsection}% the label and number
+       {0.5em}% space between label/number and subsection title
+       {}% formatting commands applied just to subsection title
+       []
+       
+\titlespacing\section{0pt}{15pt plus 4pt minus 2pt}{-20pt plus 2pt minus 2pt}
+% \titleformat
+% {\subsection} % command
+% [display] % shape
+% {\bfseries\large\itshape} % format
+% {\thechapter.\thesection\ } % label
+% {0pt} % sep
+% {} % before-code
+% [] % after-code
+% \titleformat{\chapter}[hang]{\centering\bfseries\huge}{\S\ Chapter \thechapter\ \S}{1em}{ --- }[\hrule]
+\setlength{\parindent}{0cm}
+
+\usepackage[pdftex,linkcolor=black,pdfborder={0 0 0}]{hyperref} % Format links for pdf
+\usepackage{enumitem} % Includes lists
+\setlist[enumerate,1]{leftmargin=2.5cm}
+\setenumerate[1]{label=\textbf{\emph{\roman*}}.}
+\setenumerate[2]{label=\textbf{\emph{\alph*}}.}
+
+\frenchspacing % No double spacing between sentences
+\linespread{1.2} % Set linespace
+\usepackage[letterpaper, margin=1in]{geometry} %margins
+\usepackage{nicefrac}
+%\usepackage{parskip}
+\titleformat
+{\section} % command
+[display] % shape
+{\bfseries\LARGE} % format
+{Article\ \thesection\ -- #1} % label
+{0.1ex} % sep
+{} % before-code
+[] % after-code
+
+\usepackage{cleveref}
+\creflabelformat{section}{#2Article #1#3}
+
+%-----------------------
+% Set pdf information and add title, fill in the fields
+%-----------------------
+\hypersetup{ 	
+pdfsubject = {Carnegie Mellon University – University of Pittsburgh
+},
+pdftitle = {Constitution of the CMU-Pitt Computational Biology Graduate Student Association},
+pdfauthor = {Graduate Student Association}
+}
+
+\title{\vspace{-80pt}Constitution of the CMU-Pitt Computational Biology Graduate Student Association\vspace{-15pt}}
+\author{Carnegie Mellon University – University of Pittsburgh}
+\date{\vspace{-10pt}(\emph{rev. April 8, 2022})} % in future set date to \today
+%-----------------------
+% Begin document
+%-----------------------
+\begin{document} 
+\maketitle
+
+\section{Name}\label{article:1}
+The official name of the association shall be ``The Carnegie Mellon University – University of Pittsburgh Computational Biology Graduate Student Association” hereinafter referred to as CPCBGSA.
+
+\section{Object}\label{article:2}
+The object of the CPCBGSA shall be:
+\subsection{}to provide a link between its members and the faculty and administration of CPCB, industry, and the Graduate Student Assemblies of Carnegie Mellon University and the University of Pittsburgh.
+
+\subsection{}to represent and promote the views of its members, and to implement academic, cultural, educational, professional, social, and other programs of interest to its members.
+
+\subsection{}to coordinate with the wider graduate student communities at the University of Pittsburgh and Carnegie Mellon University to promote and defend our common interests.
+
+\section{Membership}\label{article:3}
+The regular members of the CPCBGSA shall be students currently registered at Carnegie Mellon University and the University of Pittsburgh in the Carnegie Mellon University – University of Pittsburgh Computational Biology joint PhD program.  These members shall constitute the CPCBGSA constituency.
+
+\section{Fiscal Year}\label{article:4}
+The fiscal year of the CPCBGSA shall be from the day after the program retreat until the final day of the retreat the following academic year.
+
+\section{Members of the Governing Board}\label{article:5}
+
+\subsection{}The Governing Board shall consist of:
+\begin{enumerate}
+	\item the President
+	\item the Vice President
+	\item the Treasurer
+	\item two (2) Graduate Student Assembly representatives (1 for each Pitt and CMU)
+    \item the Student Seminar Coordinator
+	\item the Social Media Manager
+	\item Outreach/volunteer coordinator
+	\item four (4) Senate members
+\end{enumerate}
+
+\subsection{}The terms of office for the Governing Board shall coincide with the fiscal year of CPCBGSA.
+
+\subsection{}Any member of the Governing Board may resign from their position by presenting the Governing Board with a letter of resignation.
+
+\subsection{}Upon leaving the CPCB graduate program, a member of the Governing Board automatically resigns their position.
+ 
+\subsection{}The Governing Board shall consist of at least two (2) members from each university and at least one (1) senator from each university.
+
+\section{Powers and Duties of the Governing Board}\label{article:6}
+
+\subsection{}The Governing Board shall, to the best of its ability, fulfill the objective of the CPCBGSA, as described in \cref{article:2}.
+
+\subsection{}The Governing Board shall meet on a monthly basis to discuss previous and upcoming events, receive updates from each position of the Governing Board, and discuss other issues relevant to the CPCBGSA constituency. A quorum is defined as half ($\nicefrac{1}{2}$) of the Governing Board and must include at least two (2) voting members from each university. A quorum is required to be present to vote on constitutional amendments and ratification, votes regarding events, or other decisions may be voted on with whomever is present at the monthly Governing Board meeting. These meetings of the Governing Board shall be open to any member of the CPCBGSA constituency and a formal announcement of the meeting agenda shall be sent out to the CPCBGSA constituency at least 24 hours prior to the meeting.  
+
+\subsection{} The President shall:
+\begin{enumerate}
+    \item be elected from the CPCBGSA constituency in accordance with election procedures described in \cref{article:7}, shall have served as a member of the Governing Board the previous year, and shall not be a first year student nor a student with preconceived plans to forfeit membership as outlined in \cref{article:3} or otherwise vacate the position prior to the prescribed term of office defined in \cref{article:5}.
+    \item be charged with the general management and supervision of the affairs of the CPCBGSA.
+    \item be charged with all duties relating to public relations on behalf of CPCBGSA.
+    \item be charged with arranging regular Governing Board meetings whose dates will be chosen upon the discretion of the Governing Board, and preside over the meetings.
+    \item be limited to a maximum term of two (2) years.
+\end{enumerate}
+
+\subsection{} The Vice President shall:
+\begin{enumerate}        
+	\item be elected from the CPCBGSA constituency in accordance with election procedures described in \cref{article:7} and shall not be a first year student nor a student with preconceived plans to forfeit membership as outlined in \cref{article:3} or otherwise vacate the position prior to the prescribed term of office defined in \cref{article:5}.
+	\item be charged with increasing and improving relations between the CPCB graduate students and Faculty/Staff.
+	\item be charged with taking minutes during CPCBGSA meetings and ensuring electronic communication of CPCBGSA matters to and from the constituency.
+	\item assume, in the absence of the President, all of the duties of the office of the President.
+\end{enumerate}        
+ 
+\subsection{} The Treasurer shall:
+\begin{enumerate}        
+	\item be elected from the CPCBGSA constituency in accordance with election procedures described in \cref{article:7}, shall have served as a member of the Governing Board the previous year, and shall not be a student with preconceived plans to forfeit membership as outlined in \cref{article:3} or otherwise vacate the position prior to the prescribed term of office defined in \cref{article:5}.
+	\item be in charge of keeping track of the CPCBGSA budget through both Pitt and CMU
+	\item ensure reimbursements are fulfilled in a timely manner
+	\item serve as liaison between university business managers and the Governing Board of the CPCBGSA
+\end{enumerate}    
+
+\subsection{} The Graduate Student Assembly representatives shall:
+\begin{enumerate}        
+	\item be elected from the CPCBGSA constituency in accordance with election procedures described in \cref{article:7} and consist of a representative from each university in accordance with the requirements of the GSA for each university. The Pitt representative will need to be elected to their position in the BGSA at the start of the academic year.
+	\item be charged with representing CPCBGSA in the Graduate Student Assemblies of both the University of Pittsburgh and Carnegie Mellon University.
+	\item be charged with ensuring, in conjunction with the GSA of each respective university, that their constituency is up to date regarding current GSA events, policies, and benefits.
+	\item be charged with attending monthly GSA meetings as well as attending meetings of their respective sub-committees within GSA.
+\end{enumerate}   
+
+\subsection{} The Student Seminar Coordinator shall:
+\begin{enumerate}        
+	\item be elected from the CPCBGSA constituency in accordance with election procedures described in \cref{article:7}, shall not be a first year student, and shall not be a student with preconceived plans to forfeit membership as outlined in \cref{article:3} or otherwise vacate the position prior to the prescribed term of office defined in \cref{article:5}.
+	\item organize at least one (1) student seminar for students to present and receive feedback on their research per semester.
+	\item organize professional development panels for the constituency with at least one (1) happening per semester.
+\end{enumerate}            
+
+\subsection{} The Social Media Manager shall:
+\begin{enumerate}        
+	\item  be elected from the CPCBGSA constituency in accordance with election procedures described in \cref{article:7} and shall not be a student with preconceived plans to forfeit membership as outlined in \cref{article:3} or otherwise vacate the position prior to the prescribed term of office defined in \cref{article:5}.
+	\item be in charge of the various CPCBGSA social media accounts (Instagram, Twitter, Facebook, etc.)
+	\item ensure GSA events are advertised to the CPCBGSA constituency through social media
+	\item advertise student accomplishments via social media
+	\item ensure that all CPCBGSA events are documented on social media
+\end{enumerate}        
+
+\subsection{}The Outreach/Volunteer Coordinator shall:
+\begin{enumerate}
+    \item be elected from the CPCBGSA constituency in accordance with election procedures described in \cref{article:7} and shall not be a student with preconceived plans to forfeit membership as outlined in \cref{article:3} or otherwise vacate the position prior to the prescribed term of office defined in \cref{article:5}.
+    \item be in charge of hosting one (1) outreach or volunteering related event per-semester. This is up to the interpretation of the Coordinator, but could include organizing a day to work at a food bank or encouraging more engagement with CMU/Pitt ongoing outreach activities. 
+\end{enumerate}
+
+\subsection{}The Senate members shall:
+\begin{enumerate}        
+	\item be elected from the CPCBGSA constituency in accordance with election procedures described in \cref{article:7} and shall not be a first year student nor a student with preconceived plans to forfeit membership as outlined in \cref{article:3} or otherwise vacate the position prior to the prescribed term of office defined in \cref{article:5} unless the first year student has received approval from the program directors.
+	\item be comprised of at least one (1) student from each university.
+	\item be charged with organizing themselves to perform the following tasks:
+	\begin{enumerate}        
+		\item increasing and improving relations between the CPCB graduate students and undergraduate/masters students at both universities.
+		\item organizing social events for the CPCB constituency.
+		\item organizing CPCB intramural sporting teams through the CMU intramural athletic program.
+		\item ensuring the proper functioning of the CPCBGSA website(s).
+		\item maintaining the CPCB events and seminar calendars on the CPCBGSA website.
+	\end{enumerate}        
+\end{enumerate}        
+
+\section{Elections of the Governing Board}\label{article:7}
+
+\subsection{}Elections for the Governing Board shall be held at a meeting open to all members of the CPCBGSA constituency, at the annual CPCB retreat.
+
+\subsection{}The current president shall serve as moderator for the election and remain impartial during the voting.  In the event that they will be running for a position, they will name an impartial replacement from the CPCBGSA constituency.
+ 
+\subsection{}A Quorum for elections is defined as half ($\nicefrac{1}{2}$) of the total current CPCBGSA Constituency
+
+\subsection{} The order of elections is as follows:
+\begin{enumerate}        
+	\item the President
+	\item the Vice President
+	\item the Treasurer
+	\item the Graduate Student Assembly representatives
+	\item the Student Seminar Coordinator
+	\item the Social Media Manager
+	\item the Outreach/Volunteer Coordinator
+	\item the Senate representatives 
+\end{enumerate}        
+ 
+\subsection{}Nominations shall be conducted as follows:
+\begin{enumerate}        
+	\item   Any member of the CPCBGSA constituency may be nominated for a Governing Board position by any member of the CPCBGSA constituency, including themselves, if the nominee is eligible for the position as stipulated in \cref{article:6}.
+	\item  Members may be nominated for multiple positions, but may only be elected to a single position on the Governing Board.
+	\item Prior to the election nominees will be informed of their nomination(s) and may accept or decline at their discretion.
+\end{enumerate}        
+ 
+\subsection{} Voting at the annual CPCB retreat shall be conducted as follows, excluding the senators:
+\begin{enumerate}        
+	\item Each nominee is permitted to give a brief (30 seconds) speech with respect to their nomination.
+	\item All nominees will then leave the room and the moderator will open the floor for discussion.
+	\item After the moderator closes discussion, a blind vote of the CPCBGSA constituency, excluding the nominees, will be held.
+	\item In the event that only one (1) person is running for a position, a second option "reopen nominations" shall be present on the ballot. If this option wins, self-nominations will be reopened immediately and another round of voting will be held. If no one self-nominates, the person originally running for the position will win the vote.
+	\item The nominee with the majority of votes will be elected to the position in the Governing Board.
+	\item In the event no one receives a majority, the moderator will hold a runoff vote between the top two (2) candidates.
+	\item In the event that the retreat takes place virtually, the above election procedure will be conducted in a virtual meeting and the nominees will be moved to a separate virtual room during the discussion. 
+\end{enumerate}        
+ 
+\subsection{} Senate elections shall be conducted as follows:
+\begin{enumerate}        
+    \item Each nominee is permitted to give a 30 second speech and then shall leave the room.
+    \item The constituency, including the nominees, will then select their top four (4) candidates.
+    \item The four (4) nominees with the highest number of votes will be selected as senators. 
+    \item In the event that the top four (4) nominees with the highest number of votes does not include a student from each university, then there will be a separate election amongst only the students from the left out university to decide the final senator. This secondary election will take place before the results of the initial election are announced. 
+\end{enumerate}        
+
+\subsection{} Special Elections
+
+In the event that a CPCBGSA Governing Board position is empty mid-term, any member of the CPCBGSA constituency may be nominated by a member of the Governing Board to fill a vacancy. Upon acceptance of the nomination and a vote of  \nicefrac{2}{3} majority of the CPCBGSA Governing Board during a monthly meeting, the nominee may assume the powers and duties of the position for the remainder of the fiscal year. The Governing Board may choose to hold a mid-term election to fill the position operating under the procedures of \cref{article:7} if the CPCBGSA Governing Board is not able to nominate another member of the CPCBGSA constituency.
+
+\section{Members at large}\label{article:8}
+\subsection{}The Members at large shall:
+\begin{enumerate}        
+    \item   be defined as any member of CPCBGSA constituency who attends a Governing Board monthly meeting.
+	\item    be charged with assisting the rest of the Governing Board with tasks outlined above.
+	\item    be allowed to vote on any items for which a vote of the Governing Board is called.
+\end{enumerate}        
+
+\section{Invited Speaker Liaison}\label{article:8}
+\subsection{} The Invited Speaker Liaison shall:
+\begin{enumerate}        
+	\item be elected annually by the CPCBGSA constituency through an online vote during Spring semester organized by a current member of the Governing Board. 
+	\item not be a first year student nor a student with preconceived plans to forfeit membership as outlined in \cref{article:3} or otherwise vacate the position prior to the prescribed term of office defined in \cref{article:5}. 
+	\item request speaker nominations from the CPCB graduate students. Nominees must satisfy the following criteria:
+		\begin{enumerate}        
+			\item be in North America if the the seminar is to be in-person.
+			\item must not have been a CPCB seminar speaker within the last 3 years. 
+		\end{enumerate}        
+	\item organize a poll for CPCB graduate students to vote on the eligible nominees, and use the results to rank them.
+	\item submit the top three to five (3-5), along with two to three (2-3) sentences describing why they are being nominated and their field of research, to the two (2) faculty members organizing CPCB Seminar.
+	\item once approved, invite one (1) nominee to speak during the normal time slot for the CPCB seminar series. Continue to invite one (1) speaker at a time from the list until someone accepts. 
+	\item aid in hosting the speaker and give an appropriate introduction at seminar. If they are unable to perform this task they must ensure another student is able to host the speaker.
+	\item ensure that there is at least one (1) student-invited speaker at CPCB seminar per year. It is at the discretion of the Invited Speaker Liaison to invite and host one (1) additional student-invited speaker for the other semester. 
+	\item be charged with informing the Governing Board of the approved speaker list and when a nominee has accepted an invitation to speak at the CPCB seminar series. 
+\end{enumerate}        
+
+ 
+\section{Constitutional Amendments}\label{article:9}
+\subsection{}Formal proposals of constitutional amendments must be approved by a simple majority of the Governing Board at the meeting one (1) month prior to holding a vote on said amendment. 
+\subsection{}Once approved by a simple majority of the Governing Board, proposed amendments must be announced to the CPCBGSA constituency one (1) month in advance of the ratification.
+\subsection{}The Constitution may be amended by a super majority (\nicefrac{2}{3}) vote of members of the Governing Board and the present CPCBGSA constituency.
+
+\section{Constitutional Rewrite}\label{article:10}
+\subsection{}The Governing Board can hold a vote by simple majority to rewrite the CPCBGSA constitution. At time of voting a Governing Board member must accept the role of leading the rewrite. 
+\subsection{}The rewritten constitution must be provided to the constituency at least one (1) month before the ratification vote, to take place during a CPCBGSA meeting.
+\subsection{}A super majority (\nicefrac{2}{3}) of members of the Governing Board and the present CPCBGSA constituency is required for ratification to pass. 
+
+\end{document}
